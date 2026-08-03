@@ -1,6 +1,7 @@
-name: sf_env
+name: app_environment
 channels:
-- snowflake
+  - snowflake
 dependencies:
-- streamlit
-- snowflake-snowpark-python
+  - python=3.11.*
+  - snowflake-snowpark-python=
+  - streamlit=
