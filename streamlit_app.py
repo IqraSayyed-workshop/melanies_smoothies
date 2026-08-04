@@ -34,7 +34,7 @@ if ingredients_list:
 
     # Call SmoothieFroot API
     smoothiefroot_response = requests.get(
-        "https://my.smoothiefroot.com/api/fruit/"+fruit_chosen)
+        "https://my.smoothiefroot.com/api/fruit/"+fruit_chosen
     )
 
    # st.write(smoothiefroot_response.json())
