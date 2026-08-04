@@ -39,7 +39,7 @@ if ingredients_list:
 
     # Call SmoothieFroot API
     smoothiefroot_response = requests.get(
-        "https://my.smoothiefroot.com/api/fruit/{search_on}"
+        f"https://my.smoothiefroot.com/api/fruit/{search_on}"
     )
 
    # st.write(smoothiefroot_response.json())
