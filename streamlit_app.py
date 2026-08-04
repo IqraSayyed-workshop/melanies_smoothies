@@ -36,7 +36,8 @@ if ingredients_list:
         "https://my.smoothiefroot.com/api/fruit/watermelon"
     )
 
-    st.write(smoothiefroot_response.json())
+   # st.write(smoothiefroot_response.json())
+    sf_df = st.dataframe(data=smoothiefroot_response.jason(),use_container_width=true)
 
     # st.write(ingredients_string)
 
